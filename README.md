@@ -14,6 +14,7 @@ Capacitatea plasei: 10 cm
 Provocarea este de a selecta combinația de homari care maximizează valoarea totală fără a depăși o dimensiune totală de 10 cm.
 
 O posibilă soluție ar implica alegerea homarilor A și C, oferindu-ne o dimensiune totală de 6 cm (4 cm + 2 cm) și o valoare totală de 30 monede de aur (20 + 10). Totuși, o soluție mai bună ar fi să alegem homarii B, C și D, care împreună au o dimensiune totală de 10 cm (3 cm + 2 cm + 5 cm) și oferă o valoare totală mai mare de 50 monede de aur (15 + 10 + 25). Această combinație umple exact capacitatea plasei și maximizează valoarea capturii.
+
 Implementare
 Am implementat o soluție în C pentru această problemă, care include generarea aleatorie a homarilor, sortarea acestora în funcție de valoare și selecția lor folosind o abordare greedy. Codul este împărțit în mai multe fișiere pentru a asigura modularitatea și claritatea.
 
